@@ -4,16 +4,27 @@
 }
 
 body {
-  color: #fff;
-  font-size: 1em;
+  color: #000;
+  font-size: 16px;
 }
 
 h1 {
   background-color: cyan;
+  color: #fff;
 }
 h1 > sup {
   color: #0008FF;
   font-size: 15px;
+}
+
+.desc > p {
+  color: red;
+}
+.desc > p > b {
+  font-size: 20px;
+}
+.desc > p > b > i {
+  color: #000;
 }
 
 /*# sourceMappingURL=main.css.map */
