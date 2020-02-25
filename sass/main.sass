@@ -2,17 +2,14 @@ $oq: #fff
 $qora: #000
 $moviy: cyan
 $kuk: #0008FF
-// $var-border: 5px solid red 
-// border: $var-border
 
-@mixin oqFon
-	background-color: $oq
-	color: $qora
+@mixin oqFon ($bgColor, $colorText)
+	background-color: $bgColor
+	color: $colorText
 
 @mixin qoraFon
 	background-color: $qora
 	color: $oq
-//	color: white
 
 *
 	padding: 0
@@ -20,7 +17,8 @@ $kuk: #0008FF
 
 body
 	font-size: 16px
-	@include qoraFon
+	@include oqFon(black, white)
+//	@include oqFon($qora, $oq)
 
 h1
 	background-color: $moviy
@@ -39,4 +37,3 @@ h1
 			font-size: 20px
 			> i
 				color: $qora
-///				...
