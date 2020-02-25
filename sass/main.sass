@@ -5,13 +5,21 @@ $kuk: #0008FF
 // $var-border: 5px solid red 
 // border: $var-border
 
+@mixin oqFon
+	background-color: $oq
+	color: $qora
+
+@mixin qoraFon
+	background-color: $qora
+	color: $oq
+
 *
 	padding: 0
 	margin: 0
 
 body
-	color: $qora
 	font-size: 16px
+	@include qoraFon
 
 h1
 	background-color: $moviy
