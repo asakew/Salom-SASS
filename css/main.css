@@ -5,10 +5,15 @@
 
 body {
   color: #fff;
+  font-size: 1em;
 }
 
 h1 {
   background-color: cyan;
+}
+h1 > sup {
+  color: #0008FF;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
