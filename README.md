@@ -1,4 +1,4 @@
-# Salom Uzbekiston - SASS
+# Salom-SASS
 myPath:
 cd /d/github/Salom-Uzbekiston-SASS/
 
